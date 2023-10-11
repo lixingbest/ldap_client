@@ -1,5 +1,5 @@
 { 
-	"AuthServerWhitelist": "*.jn.gacc.hg.cn",
+	"AuthServerWhitelist": "*.cn",
         "ExternalProtocolDialogShowAlwaysOpenCheckbox": true,
 	"URLWhitelist": [
 		"hyldap://*"

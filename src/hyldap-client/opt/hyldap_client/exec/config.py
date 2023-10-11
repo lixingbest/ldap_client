@@ -2,14 +2,6 @@ CLIENT_VERSION = "4.0.38"
 PUB_DATE = "2023年03月24日"
 COMPATIBILITY_VERSION = ["Desktop-V10-SP1-HWE-Release-2203","Desktop-V10-SP1-OEM-HGMP-20210806"]
 
-# DOMAIN = "zs.intrab.com"
-# DOMAIN_SERVER = "ldap1.zs.intrab.com"
-# DOMAIN_SERVER_IP = "10.100.39.35"
-# DOMAIN_ADMIN_PASSWD = "woshishui.5413LX"
-# ADMIN_SYS_URL = "http://10.100.39.31:8080/service/"
-# SUDO_USER_NAME = "user"
-# SUDO_USER_PASSWD = "qwer1234"
-# REPORT_BUG_URL = "https://127.0.0.1:7508/#/itsm/ticket/createTicket/39e2dc8106b04d75b1640b12f1a59f0e"
 
 DOMAIN = "cs2.intrab.com"
 DOMAIN_SERVER = "ldap1.cs2.intrab.com"
