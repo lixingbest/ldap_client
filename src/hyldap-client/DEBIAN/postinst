@@ -1,0 +1,12 @@
+# !/bin/sh
+
+# 设置环境变量，因为在py中设置无效
+export DEBIAN_FRONTEND=noninteractive
+
+echo "====== 开始安装 ======"
+echo "可使用 tail -f /opt/hyldap_client/install.log 来查看安装日志"
+echo "安装可能花费数分钟的时间，请稍后..."
+# 注意，这里之所以没有采用前台（同步）安装，是因为python在执行的时候会报无法获取dpkg锁的错误
+python3 -u /opt/hyldap_client/exec/installer.py > /opt/hyldap_client/install.log 2>&1 &
+echo "LDAP客户端已在后台开始安装"
+echo "====================="

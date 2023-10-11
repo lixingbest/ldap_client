@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=hyldap
+Name[zh_CN]=华御目录服务客户端
+Keywords=hyldap;ldap;password;
+Exec=/bin/python3 /opt/hyldap_client/exec/application.py
+Icon=/opt/hyldap_client/exec/assets/logo.png
+Terminal=false
+Type=Application
+Categories=System;Utility;

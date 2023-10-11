@@ -1,0 +1,15 @@
+Package: hyldap-client
+Version: 4.0.38
+Section: free
+Priority: optional
+Pre-Depends:
+Depends:
+Suggests:
+Architecture: arm64
+Installed-Size: 24000
+Maintainer: huayu ldap team
+Provides: hyldapteam
+Description: huayu ldap client
+
+
+

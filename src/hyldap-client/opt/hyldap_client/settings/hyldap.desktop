@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=hyldap
+Exec=/usr/bin/python3 /opt/hyldap_client/exec/whoami.py &
+Type=Application
+Terminal=false
+MimeType=x-scheme-handler/hyldap;

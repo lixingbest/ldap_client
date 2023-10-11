@@ -1,0 +1,11 @@
+[Unit]
+Description=hyldapclient
+After=network.target
+
+[Service]
+Type=forking
+ExecStartPre=/bin/sleep 30
+ExecStart=/usr/bin/python3 /opt/hyldap_client/exec/startup_systemd.py
+
+[Install]
+WantedBy=multi-user.target
